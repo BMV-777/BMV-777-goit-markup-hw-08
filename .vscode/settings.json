@@ -1,21 +1,27 @@
 {
-    "liveSassCompile.settings.formats" : [
+    "liveSassCompile.settings.formats": [
         {
-            "формат" : " расширенный " ,
-            "имя_расширения" : " .css " ,
-            "Путь сохранения" : " /css "
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
         },
         {
-            "формат" : " сжатый " ,
-            "extensionName" : " .min.css " ,
-            "Путь сохранения" : " /css "
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
         }
     ],
-    "liveSassCompile.settings.excludeList" : [
-        " **/node_modules/** " ,
-        " .vscode/** "
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
     ],
-    "liveSassCompile.settings.generateMap" : правда ,
-    "liveServer.settings.port" : 1237 ,
-    «liveSassCompile.settings.autoprefix» : ноль
+    "liveSassCompile.settings.generateMap": true,
+    "liveServer.settings.port": 1237,
+    "liveSassCompile.settings.autoprefix": null,
+    "cSpell.words": [
+        "Коментарии",
+        "contener",
+        "komand",
+        "offiss"
+    ]
 }
