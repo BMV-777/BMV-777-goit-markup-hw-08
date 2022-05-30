@@ -1,0 +1,55 @@
+.btn-menu:hover,
+.btn-menu:focus {
+    color: white;
+    background-color: blue;
+
+}
+
+
+
+.hero-vubor {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+.btn-menu {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    border: transparent;
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(.23, .84, .83, .67);
+
+}
+
+
+
+
+.hero-menu {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+
+}
+
+.hero-contener .hero-spisok+.hero-spisok {
+    margin-left: 8px;
+}

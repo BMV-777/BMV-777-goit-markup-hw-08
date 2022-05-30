@@ -1,0 +1,146 @@
+
+.hero {
+    padding-top: 94px;
+    background-color: #e5e5e5;
+}
+
+
+.hero-content {
+    background-color: inherit;
+}
+
+.offiss-center {
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/komanda-min.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    max-width: 1600px;
+
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* 
+.herro-zaglav {
+
+    text-align: center;
+    background-image: linear-gradient (rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/komanda-min.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    max-width: 1600px;
+
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+
+.hero-efectivnosti {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+
+    width: 696px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+.btm {
+    font-size: 16px;
+    line-height: 1.87;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px 32px;
+    display: block;
+    color: var(--white);
+    background-color: #2196F3;
+
+    /* min-width: 200px;
+    margin-bottom: 200px;
+    margin-top: 40px; */
+}
+
+.hero-botton {
+    margin: 0 auto;
+}
+
+.hero-section {
+    /* margin-top: 94px; */
+    display: flex;
+
+    margin-left: -30px;
+
+}
+
+.hero-text {
+    flex-basis: calc((100% - 3 * 30px) /3);
+    margin-left: 30px;
+}
+
+
+.hero-h3 {
+    margin-top: 30px;
+}
+
+.hero-list {
+    width: 270px;
+    height: 120px;
+    background-color: var(--grey);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 102px;
+    margin-left: 102px;
+
+}
+
+
+.hero-item {
+    margin-top: 10px;
+    width: 270px;
+    height: 75px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}

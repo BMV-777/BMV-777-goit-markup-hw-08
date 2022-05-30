@@ -1,0 +1,94 @@
+
+.comands-prais {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: -30px;
+}
+
+.comanda {
+    padding-top: 94px;
+    background-color: var(--grey);
+
+}
+
+.comanda-list {
+    flex-basis: calc((100% - 4 * 30px) / 4);
+    margin-left: 30px;
+    width: 270px;
+}
+
+.comanda-content {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comanda-socials {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+
+}
+
+.socials-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+
+.socials-link {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    fill: #AFB1B8;
+    transition: background-color 250ms cubic-bezier(.23, .84, .83, .67);
+}
+
+.socials-link:hover,
+.socials-link:focus,
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+    fill: var(--white);
+    background-color: var(--blue);
+    transition: fill 250ms cubic-bezier(.23, .84, .83, .67)
+}
+
+.comanda-cards {
+    box-shadow: var(--cards-shadow);
+}
+
+
+.comando-text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 1.16;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+.title-foto {
+    margin-top: 30px;
+}
+
+.title-text {
+    margin-top: 10px;
+
+}
+
+

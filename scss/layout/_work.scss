@@ -1,0 +1,42 @@
+
+.work {
+    padding-top: 94px;
+    background-color: #e5e5e5;
+}
+
+.work-info {
+
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 1.16;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* max-width: 100%; */
+    margin-left: -30px;
+
+}
+
+.work-cards {
+    width: 370px;
+    height: 294px;
+
+}
+
+.work-logo {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    margin-left: 30px;
+    /* outline: 2px solid red; */
+}
+
