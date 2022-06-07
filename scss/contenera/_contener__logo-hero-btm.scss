@@ -1,0 +1,46 @@
+.offiss-center__contener {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  @media (min-width: 480px) {
+    min-width: 480px;
+    min-height: 400px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/hedor-img/Header-hero-min.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  // .hero-efectivnosti {
+  //   padding-top: 118px;
+  //   font-weight: 900;
+  //   font-size: 26px;
+  //   line-height: 1.61;
+  //   letter-spacing: 0.06em;
+  //   text-transform: uppercase;
+
+  //   width: 360px;
+  //   margin-bottom: 30px;
+  //   margin: 0 auto;
+  //   margin-bottom: 30px;
+
+  //   color: #ffffff;
+  // }
+  // .btm {
+  //   margin-top: 30px;
+  //   width: 200px;
+  //   height: 50px;
+  //   font-size: 16px;
+  //   line-height: 1.87;
+  //   border-radius: 4px;
+  //   color: var(--white);
+  //   background-color: #2196f3;
+  // }
+}

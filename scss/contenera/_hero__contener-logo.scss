@@ -1,0 +1,63 @@
+.hero__contener {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 480px) {
+    min-width: 480px;
+
+    /* .hero {
+        padding-top: 94px;
+        background-color: #c22222;
+      } */
+
+    .hero-section {
+      margin-top: 60px;
+    }
+
+    .hero-h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .hero-text {
+      margin-top: 30px;
+    }
+
+    .hero-list {
+      text-align: center;
+      width: 450px;
+      height: 120px;
+      background-color: var(--grey);
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .hero-logo {
+      justify-content: center;
+      align-items: center;
+      margin-right: 102px;
+      margin-left: 102px;
+    }
+
+    .hero-item {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      width: 450px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: #757575;
+    }
+  }
+}

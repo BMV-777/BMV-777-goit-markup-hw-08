@@ -1,17 +1,14 @@
-
-
-@import './utils/vars';
-@import './base/reset';
-@import './components/contener';
-@import './layout/header';
-@import './layout/hero';
-@import './layout/heroPortfolio';
-@import './layout/usluga-portfolio';
-@import './layout/work';
-@import './layout/comanda';
-@import './layout/client';
-@import './layout/footer';
-@import './layout/footer-portfolio';
-@import './layout/backdrop';
-
-
+@import "./utils/vars";
+@import "./utils/mix";
+@import "./base/reset";
+@import "./components/contener";
+@import "./layout/logo-hero-btm";
+@import "./layout/hero";
+@import "./layout/heroPortfolio";
+@import "./layout/usluga-portfolio";
+@import "./layout/work";
+@import "./layout/comanda";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/footer-portfolio";
+@import "./layout/forma-footera"; // @import "./layout/backdro";

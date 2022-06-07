@@ -1,146 +1,106 @@
-
-.hero {
-    padding-top: 94px;
-    background-color: #e5e5e5;
-}
-
-
-.hero-content {
-    background-color: inherit;
-}
-
-.offiss-center {
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/komanda-min.jpg);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    max-width: 1600px;
-
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-/* 
-.herro-zaglav {
-
-    text-align: center;
-    background-image: linear-gradient (rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/komanda-min.jpg);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    max-width: 1600px;
-
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
-
-} */
-
-
-.hero-efectivnosti {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
-
-    width: 696px;
-    height: 120px;
-    margin-bottom: 30px;
-
-    color: #FFFFFF;
-
-}
-
-
-
-
-.btm {
-    font-size: 16px;
-    line-height: 1.87;
-    border-radius: 4px;
-    height: 50px;
-    padding: 10px 32px;
+.hero__contener {
+  background-color: inherit;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: block;
-    color: var(--white);
-    background-color: #2196F3;
-
-    /* min-width: 200px;
-    margin-bottom: 200px;
-    margin-top: 40px; */
-}
-
-.hero-botton {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .hero-section {
-    /* margin-top: 94px; */
-    display: flex;
-
-    margin-left: -30px;
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  @media screen and(min-width:480px) and (max-width: 767px) {
+    margin-left: -1px;
+  }
+  @media screen and(min-width:768px) and (max-width: 1199px) {
+    margin-left: -20px;
+  }
 }
 
 .hero-text {
-    flex-basis: calc((100% - 3 * 30px) /3);
+  // flex-basis: calc((100% - 3 * 30px) / 3);
+  // margin-left: 30px;
+  @media screen and(min-width:480px) {
+    // margin-left: 30px;
+  }
+  @media screen and(min-width:768px) and (max-width: 1199px) {
     margin-left: 30px;
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+  @media screen and(min-width:1200px) {
+    margin-left: 30px;
+    flex-basis: calc((100% - 4 * 30px) / 4);
+  }
 }
 
-
 .hero-h3 {
-    margin-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 30px;
+
+  @media screen and(min-width: 480px) {
+    text-align: center;
+  }
+  @media screen and(min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.hero-section {
+  // margin: 0;
+  margin-top: 60px;
+  @media screen and(min-width:768px) {
+    // margin: 0;
+    margin-top: 60px;
+  }
 }
 
 .hero-list {
+  text-align: center;
+  width: 450px;
+  height: 120px;
+  background-color: var(--grey);
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  @media screen and(min-width:768px) and (max-width: 1199px) {
+    width: 354px;
+  }
+  @media screen and(min-width:1200px) {
     width: 270px;
     height: 120px;
-    background-color: var(--grey);
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-
+  }
 }
 
 .hero-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 102px;
-    margin-left: 102px;
-
+  justify-content: center;
+  align-items: center;
+  margin-right: 102px;
+  margin-left: 102px;
 }
 
-
 .hero-item {
-    margin-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 450px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  @media screen and(min-width: 768px) and (max-width: 1199px) {
+    width: 354px;
+  }
+  @media screen and(min-width: 1200px) {
     width: 270px;
     height: 75px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-
+  }
 }

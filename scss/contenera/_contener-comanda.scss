@@ -1,0 +1,79 @@
+.comanda__block {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--grey);
+  text-align: center;
+  padding-bottom: 30px;
+
+  @media (min-width: 480px) {
+    min-width: 480px;
+
+    .comando-img {
+      display: block;
+      max-width: 100%;
+      width: 450px;
+      height: 460px;
+      margin-bottom: 30px;
+    }
+
+    .comando-text {
+      padding-top: 60px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 28px;
+      color: #ffffff;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 3%;
+      color: #212121;
+    }
+
+    .comanda-socials {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .socials-item {
+      width: 44px;
+      height: 44px;
+      margin-left: 10px;
+      margin-bottom: 24px;
+    }
+
+    .socials-link {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      fill: #afb1b8;
+    }
+
+    .comanda-cards {
+      box-shadow: var(--cards-shadow);
+    }
+
+    .comanda-foto__name {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.18;
+      letter-spacing: 0.06em;
+      margin-bottom: 10px;
+
+      color: #212121;
+    }
+
+    .comanda-text__posichion {
+      margin-bottom: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+
+      color: #757575;
+    }
+  }
+}

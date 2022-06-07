@@ -1,0 +1,78 @@
+.client__contener {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white);
+  text-align: center;
+
+  @media (min-width: 480px) {
+    min-width: 480px;
+
+    .client-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .client-post {
+      padding-top: 60px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+    }
+
+    .client-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .client-item {
+      width: 210px;
+      height: 92px;
+      border-radius: 4px;
+
+      border: 1px solid var(--white-grey);
+      list-style: none;
+      fill: #afb1b8;
+
+      transition: border 250ms linear, fill 250ms linear;
+    }
+
+    .client-item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    .client-item:hover,
+    .client-item:focus {
+      border: 1px solid #2196f3;
+      fill: #2196f3;
+    }
+
+    .client-sulock {
+      display: flex;
+      justify-content: center;
+      height: 60px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+
+    .client-list-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 106px;
+      height: 60px;
+    }
+  }
+}
