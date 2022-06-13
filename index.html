@@ -26,7 +26,7 @@
     <header class="header">
         <div class="header-contener contener ">
             <nav class="header-content ">
-                <p class="header-studio "><span>Web</span>Studio</p>
+                <a href="#" class="header-studio link"><span>Web</span>Studio</a>
                 <ul class="header-menu">
                     <li class="header-list list">
                         <a class="header-item link" href="" lang="ru">Студия</a>
@@ -54,14 +54,14 @@
                         </svg>+380952311120</a>
                 </li>
             </ul>
-            <button class="menu-open">
+            <button class="menu-open " data-menu-open>
                 <svg class="menu-open__burger" width="24" height="16">
                     <use href="./svg/symbol-defs.svg#icon-menu_burger"></use>
                 </svg>
             </button>
         </div>
-        <div class="menu-mobel ">
-            <button class="menu-closed">
+        <div class="menu-mobel is-hidden" data-menu>
+            <button class="menu-closed" data-menu-close>
                 <svg class="menu-closed__krestik" width="25" height="16">
                     <use href="./svg/symbol-defs.svg#icon-krestic"></use>
                 </svg>
@@ -615,6 +615,7 @@
         </div> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 
