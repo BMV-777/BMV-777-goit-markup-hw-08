@@ -4,6 +4,17 @@
   background-color: blue;
 }
 
+.menu {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: unset;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
 .hero-vubor {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -31,13 +42,25 @@
   transition: background-color 250ms cubic-bezier(0.23, 0.84, 0.83, 0.67);
 }
 
-.hero-menu {
-  // display: flex;
-  justify-content: center;
-
-  margin-bottom: 50px;
+.hero-spisok {
+  margin-left: 8px;
+  @media screen and (min-width: 480px) and (max-width: 510px) {
+    &:nth-child(n + 4) {
+      padding-top: 8px;
+    }
+  }
+  @media screen and (min-width: 512px) and (max-width: 659px) {
+    &:nth-child(n + 5) {
+      padding-top: 8px;
+    }
+  }
 }
 
-.hero-contener .hero-spisok + .hero-spisok {
-  margin-left: 8px;
+.hero-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }

@@ -1,5 +1,7 @@
 .uslug-menu {
-  // display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
   flex-wrap: wrap;
 
   margin-left: -30px;
@@ -9,7 +11,7 @@
 .uslug-cardt {
   position: relative;
   overflow: hidden;
-  /* text-align: center; */
+  // text-align: center;
 }
 
 .uslud-text {
@@ -45,8 +47,12 @@
 .title-foto {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
   line-height: calc(36 / 18);
+  margin-top: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 
   letter-spacing: 0.06em;
 
@@ -65,15 +71,38 @@
   color: #757575;
 }
 
+.uslug-img {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+  }
+}
+.uslug-vubora {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
+}
+
 .uslug-tumba {
   padding-left: 24px;
   padding-right: 24px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    height: 146px;
+  }
 
   border: 1px solid #eeeeee;
 }
 
-.uslug-menu > .uslug-vubora {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
+// .uslug-menu > .uslug-vubora {
+//   flex-basis: calc(100% / 3 - 30px);
+//   margin-left: 30px;
+//   margin-bottom: 30px;
+// }
